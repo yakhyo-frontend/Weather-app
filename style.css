@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "roboto";
+}
+
+body {
+  background: whitesmoke;
+}
+
+.container {
+  width: 1220px;
+  margin: 0 auto;
+}
+
+.form {
+  background: white;
+  border-radius: 10px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  width: 130px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  background: white;
+  border: 1px solid black;
+  transition: all 0.7s ease;
+}
+
+.btn:hover {
+  transition: all 0.7s ease;
+  transform: translateY(-5px);
+  box-shadow: 0 0 5px blue;
+}
+
+.input {
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  background: white;
+  border: 1px solid black;
+  transition: all 0.7s ease;
+  padding: 13px;
+  margin-right: 20px;
+}
+
+.input:focus {
+  outline: none;
+  transition: all 0.7s ease;
+  transform: translateY(-5px);
+  box-shadow: 0 0 5px blue;
+}
+main,
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card {
+  width: 800px;
+  height: 200px;
+  margin: 100px 0;
+  background: white;
+  border-radius: 10px;
+}
+
+.city {
+  margin: 20px 0;
+}
+
+.temp {
+  margin-bottom: 20px;
+}
